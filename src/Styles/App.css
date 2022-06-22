@@ -9,17 +9,17 @@
   height: 100%;
 }
 
-/* @font-face {
+@font-face {
   font-family: montserratRegular;
-  src: url(../fonts/ofont.ru_Montserrat.ttf);
+  src: url(../Fonts/ofont.ru_Montserrat.ttf);
 }
 
 @font-face {
   font-family: PlayfairRegular;
-  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+  src: url(../Fonts/PlayfairDisplay-Regular.ttf);
 }
 
 @font-face {
   font-family: PlayfairBold;
-  src: url(../fonts/PlayfairDisplay-Bold.ttf);
-} */
+  src: url(../Fonts/PlayfairDisplay-Bold.ttf);
+}

@@ -16,6 +16,7 @@ function MainCont(){
                       dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam.
                  Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</span>
         </div>
+        <img src={require("../../Images/image.png")}/>
     </div> 
     )
 }
