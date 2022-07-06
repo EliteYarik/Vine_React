@@ -6,4 +6,4 @@ function HeaderButton(props){
     );
 }
 
-export default HeaderButton
+export default HeaderButton;

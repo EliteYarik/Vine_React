@@ -1,4 +1,5 @@
 import React from "react";
+import CollTable from "./CollTable";
 
 function CollInfo(){
     return(
@@ -14,20 +15,8 @@ function CollInfo(){
                             Felis adipiscing morbi sodales ac. 
                         </span>
                     </div>
-                    <div class="CollTable">
-                        <div class="VineYear">1980</div>
-                        <div class="VineName">
-                            <span>Colli Euganei Bianco Ca'Lustra 1980</span>
-                            <span>Красочная бутылка вина из Марселя</span>
-                        </div>
-                    </div>
-                    <div class="CollTable">
-                        <div class="VineYear">1980</div>
-                        <div class="VineName">
-                            <span>Colli Euganei Bianco Ca'Lustra 1980</span>
-                            <span>Красочная бутылка вина из Марселя</span>
-                        </div>
-                    </div>
+                    <CollTable/>
+                    <CollTable/>
                     <div class="CollTableLast">
                         <div class="VineYear">1980</div>
                         <div class="VineName">
@@ -43,10 +32,10 @@ function CollInfo(){
                         </span>
                     </div>
                     <div class="CollImagesMobile">
-                        {/* <img src="images/Rectangle 11.png" alt=""> */}
+                        {/* <img src={require("../Images/Rectangle 11.png")} alt=""/> */}
                         <div class="CollImagesMobCont">
-                            {/* <img src="images/Rectangle 12.png" alt="">
-                            <img src="images/Rectangle 13.png" alt=""> */}
+                            {/* <img src={require("../Images/Rectangle 12.png")} alt=""/>
+                            <img src= {require("../Images/Rectangle 13.png")} alt=""/> */}
                         </div>
                     </div>
                     <div class="CollButton">УЗНАТЬ ПОДРОБНЕЕ</div>

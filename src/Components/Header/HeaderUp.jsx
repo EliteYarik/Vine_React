@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import HeaderButton from "../UI/HeaderButton"
+import HeaderButton from "../UI/HeaderButton";
 
 function HeaderUp(){
     const [buttonsText, changeValue] = useState([
@@ -15,10 +15,6 @@ function HeaderUp(){
                     <span>8 (912) 123-45-67</span>
                 </div>
                 <div className="HeaderButtonsCont">
-                    {/* <div className="HeadButton">Каталог</div>
-                    <div className="HeadButton">Доставка</div>
-                    <div className="HeadButton">Коллекции</div>
-                    <div className="HeadButton">Контакты</div> */}
                     {buttonsText.map(el=><HeaderButton text = {el.value} key = {el.id}/>)}
                 </div>
             </div>
