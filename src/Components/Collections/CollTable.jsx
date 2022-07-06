@@ -1,19 +1,16 @@
-import React, {useState} from "react";
-import VineYear from "../UI/VineYear";
+import React from "react";
 
-function CollTable(){
-    const[Year, changeValue] = useState([
-        {value: "1980", id:1},
-    ])
+function CollTable(props){
     return(
         <div class="CollTable">
-            {Year.map(el=><VineYear text={el.value} key = {el.id}/>)}
+            <div className="VineYear">{props.year}</div>
             <div class="VineName">
-                <span>Colli Euganei Bianco Ca'Lustra 1980</span>
-                <span>Красочная бутылка вина из Марселя</span>
+                <span>{props.text1}</span>
+                <span>{props.text2}</span>
             </div>
         </div>  
     )
 }
-
+// Colli Euganei Bianco Ca'Lustra 1980
+// Красочная бутылка вина из Марселя
 export default CollTable;
