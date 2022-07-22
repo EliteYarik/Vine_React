@@ -132,3 +132,70 @@
 .CollTableLast div{
     border-bottom: 0px;
 }
+
+
+/*  */
+@media screen and (max-device-width:720px){
+    .Collections{
+        padding-top: 50px;
+        margin: auto;
+        height: auto;
+        padding-right: 10px;
+    }
+    
+    .CollLine{
+        display: none;
+    }
+    
+    .VineYear{
+        width: 50px;
+        height: 90px;
+        line-height: 90px;
+    }
+    
+    .VineName{
+        width: 300px;
+    }
+    
+    .CollTxt{
+        width: auto;
+    }
+    
+    .CollectionsCont{
+        padding-left: 10px;
+    }
+    
+    .CollImages{
+        display: none;
+    }
+    
+    .CollButton{
+        margin: auto;
+    }
+    
+    .CollImagesMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .CollImagesMobile img{
+      width: 350px;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    
+    .CollImagesMobCont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .CollImagesMobCont img:last-child{
+        margin-bottom: 30px;
+    }
+}

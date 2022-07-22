@@ -63,3 +63,41 @@
 .FooterInfo img{
     margin-right: 36px;
 }
+
+/*  */
+
+@media screen and (max-device-width:720px){
+    .Footer{
+        padding: 0;
+        height: 200px;
+        flex-direction: unset;
+        justify-content: flex-start;
+    }
+    
+    .FooterButtons{
+        display: none;
+    }
+    
+    .FooterInfoCont{
+        flex-direction: column;
+        border: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .FooterInfoCont div:nth-child(2){
+        display: none;
+    }
+    
+    .FooterInfo{
+        border: 0;
+        border-bottom: 1px solid white;
+        line-height: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .FooterInfo:last-child{
+        margin: 0;
+    }
+}

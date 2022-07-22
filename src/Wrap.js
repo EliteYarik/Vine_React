@@ -1,5 +1,4 @@
 import './Styles/App.css';
-import './Styles/Mobile.css';
 import Header from './Components/Header/Header';
 import Main from './Components/Main/Main';
 import Collections from './Components/Collections/Collections';

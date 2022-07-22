@@ -106,3 +106,76 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+/*  */
+
+@media screen and (max-device-width:720px){
+    .EntryWrap img{
+        display: none;
+    }
+    
+    .Entry{
+        height: auto;
+    }
+    
+    .EntryCont span{
+        margin-bottom: 30px;
+    }
+    
+    .EntryCont{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        padding-bottom: 30px;
+        border: 0px;
+        align-items: flex-start;
+    }
+    
+    .EntryTitle{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+    
+    .EntryCont input{
+        width: 80%;
+        padding: 0;
+    }
+    
+    .EntryInput{
+        width: 90%;
+        display: block;
+        margin: 0;
+        margin: auto;
+    }
+    
+    .EntryInput input{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    .EntryCont input:nth-child(5){
+        width: 90%;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+    
+    .EntryCont input:nth-child(6){
+        width: 80%;
+        margin: auto;
+    }
+    
+    .EntryLine{
+        display: none;
+    }
+    
+    .EntryCont span:nth-child(3){
+        padding: 0px 10px 0px 10px;
+    }
+    
+    .EntryWrap{
+        padding-top: 25px;
+    }
+}

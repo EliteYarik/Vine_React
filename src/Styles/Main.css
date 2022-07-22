@@ -41,3 +41,42 @@
     font-size: 16px;
     font-family: montserratRegular;
 }
+
+
+@media screen and (max-device-width:720px){
+    .Main{
+        width: 100%;
+        height: auto;
+        padding: 50px 0px 50px 0px;
+    }
+    
+    .MainSpanCont{
+        width: 80%;
+    }
+    
+    .MainCont{
+        width: 80vw;
+        height: auto;
+    }
+    
+    .MainCont span:first-child{
+        margin: 0px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    
+    .MainSpanCont span:first-child{
+        font-size: 15px;
+        margin: 0px;
+        text-align: justify;
+    } 
+    
+    .Main .Line{
+        display: none;
+    }
+    
+    .Main img{
+        display: none;
+    }
+}
